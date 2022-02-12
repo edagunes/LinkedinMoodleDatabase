@@ -38,6 +38,7 @@ location and position. More than one student can apply for a job advertisement.
 A student can apply for more than one job. Students can apply for a job as an
 intern.
 
-# EER Diagram
+## Design Conceptual Design
 
+![EER Diyagram](https://user-images.githubusercontent.com/58903206/153720765-5667ec62-070f-49c6-a2f5-b311249a467a.png)
 
