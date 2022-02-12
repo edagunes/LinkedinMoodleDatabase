@@ -1,0 +1,349 @@
+INSERT INTO users (user_id,address,e_mail,username)
+VALUES   
+	('000000001', 'Baku', 'alisafarli@hotmail.com','xEliaze'),
+	('000000002', 'Denizli', 'sametcerezci@gmail.com','mrCODER'),
+	('000000003', 'Antalya', 'edagunes@gmail.com','edaaguness'),
+	('000000004', 'Istanbul','arceliktr@support.com','arceliktr'),
+	('000000005', 'Istanbul ','samsung@support.com','samsung      r'),
+	('000000006', 'Izmir','webadmin@ege.edu.tr','egeuniversity'),
+	('000000007', 'Bursa','uludag.rektorluk@hs03.kep.tr','uludaguniversity' ),
+	('000000008', 'Manisa', 'vestel@support.com','vestel'),
+	('000000009', 'Denizli', 'kmlisler@gmail.com','KML'),
+    ('000000010', 'Ankara', 'mehmetkaptan@gmail.com','Memedo'),
+    ('000000012', 'Izmir', 'aybarsugur@gmail.com','aybarsugur'),
+    ('000000013', 'Aydın', 'muratosman@gmail.com','MOsmanUnalir'),
+    ('000000014', 'Istanbul', 'anilhoca@gmail.com','anilhocaniz'),
+	('000000015', 'Yozgat', 'kadireren@gmail.com','kadireren'),
+  	('000000016', 'Denizli', 'yasaragar@gmail.com','yasaragar'),
+  	('000000017', 'San Francisco', 'microsoft@support.com','microsofttr'),
+  	('000000018', 'Mugla', 'msku@gmail.com','mskuuni'),
+  	('000000019', 'Kırklareli', 'hakandemirel@gmail.com','hakooo'),
+  	('000000020', 'Aydın', 'eminepolat@gmail.com','polatemine'),
+  	('000000021', 'Izmir', 'mettehan@gmail.com','meteh'),
+  	('000000022', 'Istanbul', 'anilaladag@gmail.com','anilaladag'),
+  	('000000023', 'Istanbul', 'xholding@gmail.com','Xholding'),
+  	('000000024', 'New York', 'apple@support.com','Appletr'),
+  	('000000025', 'Istanbul', 'anilaladag@gmail.com','anilaladag_1'),
+  	('000000026', 'Denizli', 'melihatarlaci@gmail.com','melihatarlaci'),
+  	('000000027', 'Denizli', 'ozgeduman@gmail.com','ozgeduman'),
+  	('000000028', 'Baku', 'ahmetalici@gmail.com','ahmetalici'),
+  	('000000029', 'Ankara', 'kazimduman@gmail.com','kazimduman'),
+  	('000000030', 'Izmir', 'eminekalayci@gmail.com','eminekalayci')
+
+;
+
+INSERT  into members(ssn,birth_date,sex,fname,lname,user_id,mem_type)
+VALUES  
+	('113620442','23.11.2002','M','Ali','Safarli','000000001','student'),
+	('251936178','26.09.1999','M','Samet','Cerezci','000000002','student'),
+	('991529451','18.06.1999','F','Eda','Gunes','000000003','student'),
+	('895031363','17.09.1999','M','Kamil','Isler','000000009','student'),
+	('975070373','14.02.1987','M','Mehmet','Kaptan','000000010','student'),	
+	('427030309','15.12.1960','M','Aybars','Ugur','000000012','instructor'),		
+	('526493374','15.12.1965','M','Murat','Unalir','000000013','instructor'),	
+	('242052516','21.04.1992','M','Anil','Guven','000000014','instructor'),
+	('129935662','21.04.1992','M','Kadir','Eren','000000015','instructor'),
+	('327741590','12.01.1999','M','Yasar','Agar','000000016','student'),
+	('396933008','02.12.2000','M','Hakan','Demirel','000000019','student'),
+	('595726029','09.06.1999','F','Emine','Polat','000000020','student'),
+	('652176327','12.02.1998','M','Metehan','Akmese','000000021','student'),
+	('144656579','27.04.2000','M','Anil','Aladag','000000025','student'),
+	('059670493','21.10.1984','F','Meliha','Tarlacı','000000026','employee'),
+	('025517954','14.04.1993','F','Ozge','Duman','000000027','employee'),
+	('084064654','24.11.2001','M','Ahmet','Alıcı','000000028','employee'),
+	('788333451','02.09.1975','M','Kazım','Duman','000000029','employee'),
+	('906303067','17.05.1996','M','Emine','Kalaycı','000000030','instructor')
+
+;
+
+INSERT INTO company
+VALUES 
+	('10001',11050,'Arcelik Turkiye','Elektronik','000000004'),
+    ('10002',15023,'Samsung','Elektronik','000000005'),
+    ('10003',14256,'Vestel','Elektronik','000000008'), 
+	('10004',112035,'Microsoft','Yazılım','000000017'),
+ 	('10005',654,'Xholding','Finans','000000023'), 
+ 	('10006',164089,'Apple','Yazılım','000000024')
+;
+
+INSERT INTO university
+VALUES 
+   	('20001','Ege Universitesi','Izmir','000000006'),
+   	('20002','Uludag Universitesi','Bursa','000000007'), 
+   	('20003','MSK Universitesi','Mugla','000000018')
+; 
+
+INSERT INTO job
+VALUES 
+   	('11001','10001','Manager','Full time','28.12.2021','Istanbul'),
+   	('11002','10001','Software Engineer','Full time','28.12.2021','Istanbul'),
+   	('11003','10002','Data Analyst','Part time','28.12.2021','Istanbul'),
+   	('11004','10002','Chief','Full time','24.02.2021','Istanbul'),
+   	('11005','10003','Worker','Full time','15.04.2021','Istanbul'),
+   	('11006','10003','CEO','Full time','23.01.2022','Manisa'),
+   	('11007','10003','Worker','Part time','07.12.2021','Manisa'),
+   	('11008','10004','Head Assistant','Full time','17.10.2021','Antalya'),
+   	('11009','10004','Office Manager','Full time','03.01.2021','Antalya'),
+   	('11010','10004','Electronic Engineer','Full time','03.01.2021','Antalya'),
+   	('11011','10005','Financer','Full time','23.01.2022','Istanbul'),  
+   	('11012','10005','Stock market manager','Part time','23.01.2022','Istanbul'),  
+   	('11013','10005','Computer Engineer','Full time','24.02.2021','Istanbul'),  
+   	('11014','10006','Industrial Engineer','Full time','15.04.2021','Ankara'),  
+   	('11015','10006', 'Office Manager','Part time','23.01.2022','Ankara')
+;  
+
+INSERT INTO department
+VALUES 
+	('21001','Computer Eng.','20001'),
+	('21002','Food Eng.','20001'),
+	('21003','Math','20001'),
+	('21004','Computer Eng.','20002'),
+	('21005','Physic','20002'),
+	('21006','Computer Eng.','20003'),
+	('21007','Food Eng.','20003'),
+	('21008','Math','20003'),
+	('21009','Mechanical Eng.','20001'),
+	('21010','Industrial Eng.','20002')
+;
+
+INSERT INTO instructor
+VALUES 
+   	('906303067','Prof','21003'),
+   	('427030309','Dr','21001'),
+   	('526493374','Dr','21007'),
+	('242052516','Asistan','21007'),
+	('129935662','Asistan','21003')
+	
+; 
+  
+INSERT INTO student
+VALUES 
+   	('113620442',3.50,2019,'21001'),
+   	('975070373',3.80,2019,'21002'),
+   	('327741590',3.20,2017,'21003'), 
+   	('396933008',2.20,2017,'21003'), 
+   	('595726029',3.38,2018,'21004'), 
+   	('144656579',3.20,2018,'21005'), 
+	('991529451',3.20,2018,'21005'), 
+	('895031363',3.20,2018,'21001'), 
+	('427030309',3.20,2018,'21005'), 
+	('526493374',3.20,2018,'21005'), 
+	('242052516',3.20,2017,'21003'), 
+	('129935662',3.20,2017,'21003'), 
+	('652176327',3.80,2019,'21002'),
+   	('251936178',3.20,2018,'21006')
+; 
+
+INSERT INTO employee
+VALUES 
+   	('059670493','Ege Universitesi'),
+   	('025517954','Ankara Universitesi'),
+   	('084064654','MSK Universitesi'),
+   	('788333451','MSK Universitesi')
+;
+
+INSERT INTO course
+VALUES
+  	('21101','DBMS',7,'Autumn','21001', '427030309'),
+  	('21102','Calculus 2',3,'Spring','21003', '906303067'),
+  	('21103','Algorithm',2,'Autumn','21009', '526493374'), 
+  	('21104','Algorithm 2',5,'Spring','21005', '526493374'), 
+  	('21105','Calculus 1',9,'Autumn','21010', '242052516'), 
+  	('21106','DBMS2',6,'Spring','21008', '129935662'),
+	('21107','Biyology',1,'Autumn','21001', '906303067')
+;
+	
+INSERT INTO group_
+VALUES
+   	('300001','Muhendises',2,'000000002'),
+   	('300002','Girisimciler',3,'000000006'),  
+   	('300003','Yatırımcılar',3,'000000007'),  
+   	('300004','Ege Uni Mezunları',3,'000000013'),  
+  	('300005','Staj deneyenler',3,'000000006')
+;  
+  
+INSERT INTO post 
+VALUES 
+	('400001','19.01.2022',5,'300001','000000005'),
+  	('400002','21.01.2022',1,NULL,'000000002'),
+  	('400003','25.01.2022',0,'300002','000000009'),
+	('400004','25.01.2022',0,'300002','000000009'),
+	('400005','19.01.2022',0,NULL,'000000021')
+;
+  	
+INSERT INTO assignment_
+VALUES
+   	('211101','21101','ER-EER', '427030309'),
+   	('211102','21102','Basic ops', '906303067'),
+   	('211103','21102','OS', '906303067'),
+   	('211104','21103','C ', '526493374'),
+  	('211105','21104','C++ ', '526493374'),
+  	('211106','21105','Integral ', '242052516'),
+  	('211107','21106','Sql', '427030309'),
+  	('211108','21103','BNF', '427030309')
+;	
+
+INSERT INTO skill
+VALUES 	
+	('501','C#'),
+	('502','Python'),
+	('503','Integral'),
+	('504','Swimming'),
+	('505','Art'),
+	('506','Analysis'),
+	('507','Hardware'),
+	('508','Coding')
+;
+  	
+INSERT INTO message
+VALUES 
+	('084064654','975070373','Merhaba','20.01.2022'),
+	('113620442', '895031363','Sağlıklı günler','01.01.2022'),
+	('129935662', '327741590','Nasıl yardımcı olabilirim?','02.12.2021'),
+	('144656579','059670493','İşe alındım mı?','02.12.2021')
+;	
+
+INSERT INTO view_profile 
+VALUES
+   	('059670493', '652176327'),
+   	('129935662', '242052516'),
+   	('427030309', '975070373'),
+   	('991529451', '906303067'),
+   	('025517954','144656579'),
+   	('788333451', '113620442'),
+   	('113620442', '788333451'),
+   	('327741590', '059670493')
+;
+	
+INSERT INTO connect_
+VALUES
+   	('113620442', '991529451'),
+   	('396933008', '113620442'),
+   	('144656579', '025517954'),
+   	('788333451', '652176327'),
+   	('906303067', '427030309'),
+  	('427030309', '906303067')
+;
+
+INSERT INTO user_group 
+VALUES
+   ('000000002','300001',FALSE),
+   	('000000007','300001',TRUE),
+   	('000000012','300002',FALSE),
+   	('000000022','300002',FALSE),
+   	('000000006','300002',FALSE),
+   	('000000015','300003',TRUE),
+   	('000000016','300003',FALSE),
+   	('000000016','300004',TRUE),
+   	('000000009','300004',FALSE),
+  	('000000019','300005',FALSE),
+  	('000000002','300005',TRUE),
+  	('000000007','300005',FALSE)
+;
+
+INSERT INTO comment_ 
+VALUES 
+	('000000001','400002','Eline sağlık'),
+	('000000005','400001','Basarılar'),
+	('000000003','400003','Guzel is'),
+	('000000013','400001','Tebrikler'),
+	('000000012','400002','Mükemmel paylasım'),
+	('000000012','400004','Cok kullanışlı bir robot'),
+	('000000012','400005','Dolar yine yükselişte')
+;
+
+INSERT INTO like_
+VALUES
+   ('000000001','400001'),
+   ('000000001','400003'),
+   ('000000002','400002'),
+   ('000000002','400001'),
+   ('000000003','400001'),
+   ('000000003','400003'),
+   ('000000009','400001'),
+   ('000000001','400002'),
+   ('000000014','400002'),
+   ('000000010','400001'),
+   ('000000010','400003'),
+   ('000000009','400002'),
+   ('000000014','400004'),
+   ('000000012','400004'),
+   ('000000012','400005'),
+   ('000000002','400005')   
+;
+
+INSERT INTO member_language 
+VALUES 
+	('113620442','English'),
+	('251936178','French'),
+	('427030309','English'),
+	('113620442','German'),
+	('595726029','English'),
+	('084064654','Italian'),
+	('652176327','French'),
+	('113620442','Turkish'),
+	('251936178','Italian')
+;
+   
+INSERT INTO member_endorse_skill 
+VALUES 
+	('251936178','501', '427030309'),
+	('991529451','504', '242052516'),
+	('113620442','502', '396933008'),
+	('595726029','503', '144656579'),
+	('251936178','505', '526493374'),
+	('025517954','506', '895031363'),
+	('788333451','507', '526493374'),
+	('906303067','508', '242052516')
+;	
+
+INSERT INTO student_assignment
+VALUES 
+   	('113620442','211101','21101',80),
+   	('975070373','211102','21102',75),
+   	('327741590','211103','21102',60),
+   	('396933008','211104','21103',100),
+   	('595726029','211105','21104',60),
+   	('595726029','211106','21105',85),
+   	('113620442','211107','21106',95),
+   	('396933008','211108','21103',70)
+;
+
+INSERT INTO student_course
+VALUES 
+   	('113620442', '21101'),
+   	('975070373','21102'),
+	('327741590','21101'),
+	('396933008','21103'),
+	('595726029', '21104'),
+	('595726029','21105'),
+	('113620442','21106'),
+	('396933008', '21106')
+;
+ 
+INSERT INTO student_job
+VALUES 
+	('113620442','11002','10001'),
+	('975070373','11003','10002'),
+	('595726029','11002','10004')
+;
+ 
+INSERT INTO employee_job 
+VALUES 
+	('059670493','11001','10001',TRUE),
+	('025517954','11004','10002',FALSE),
+	('788333451','11005','10003',TRUE)
+;
+
+INSERT INTO has_exp_on
+VALUES 
+   ('059670493','10002','20.01.2016','12.10.2017','Head Assistant'),
+   ('025517954','10003','10.05.2018','10.09.2019','Computer Engineer'),
+   ('788333451','10004','11.11.2014','20.12.2016','CEO'),
+   ('084064654','10006','12.07.2018','12.10.2017' ,'Worker'),
+   ('788333451','10006','10.05.2018','10.09.2018','Computer Engineer'),
+   ('059670493','10001','21.01.2021','12.10.2017','Mechanical Engineer'),
+   ('025517954','10001','23.06.2020','23.01.2022','Software Engineer'),
+   ('084064654','10001','20.01.2016','10.09.2018','Computer Engineer'),
+   ('788333451','10005','17.05.2017','12.10.2017','Financer')
+; 
