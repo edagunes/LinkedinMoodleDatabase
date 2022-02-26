@@ -1,5 +1,3 @@
-# LinkedinMoodleDatabase
-
 ## What is the aim of the application:
 LinkedinModdle is an application that students and companies contact each
 other for internships or work. Members of this application can apply directly to
